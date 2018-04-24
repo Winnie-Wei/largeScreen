@@ -1,0 +1,293 @@
+body{
+    color: white;
+    font-size: 0.21rem;
+    background: #090C1F url('../../images/bg.png') no-repeat;
+    background-size: 100% 100%;
+    font-family: '微软雅黑';
+}
+.monitor-content {
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px;
+}
+.mo-box{
+    padding: 10px 0px;
+}
+.mo-panel {
+    height: 100%;
+    margin: 0px;
+    background-color: transparent;
+    border: 1px solid #005B87;
+    border-radius: 0px;
+}
+.mo-panel-body{
+    height: 82%;
+    padding-top: 0px;
+}
+.mo-panel>.mo-panel-heading {
+    background-color: transparent;
+    color: white;
+    border: 0px;
+}
+table tr td:first-child + td{
+    font-family: 'CalculatorFont';
+    font-size: 0.37rem;
+    color: #FFF446;
+    padding: 0px 30px;
+}
+table{
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+.hz-happend tr td:first-child + td {
+    color: #1DA8DD;
+}
+.hz-happend tr td:last-child{
+    width: 30px;
+    background: url('../../images/green_arrow.png') center no-repeat;
+}
+.no-padd-body{
+    padding: 0px;
+}
+.no-padd-body .mo-panel-body{
+    padding: 0;
+    height: 100%;
+}
+#J_rent_car {
+    background: url('../../images/bicycle.png') center no-repeat;
+    background-size: 0.36rem 0.28rem;
+    /*position: absolute;*/
+}
+.rank-body img{
+    width: 80%;
+    padding: 0.7rem 0 0 0.3rem;
+}
+#J_car_rental_ranking {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    bottom: 0.3%;
+}
+.center-box{
+    padding: 0;
+}
+.center-box .col-md-12{
+    padding: 0;
+}
+form {
+    position: absolute;
+    margin-top: 0.6rem;
+    height: 95px;
+    width: 106%;
+    left: -5px;
+}
+fieldset {
+    border: 1px solid #009DDE;
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+legend {
+    font-size: 0.15rem;
+    color: white;
+    width: auto;
+    padding: 0 5px;
+    margin: 0 auto;
+    background-color: #090C1F;
+    border-bottom: 0;
+    margin-bottom: 0.1rem;
+}
+legend + div {
+    height: 65%;
+    width: 100%;
+}
+.center-form{
+    width: 80%;
+    left: 10%;
+}
+.mo-bg-line{
+    background: url('../../images/bg_labelline.png') center no-repeat;
+    background-size: 4rem 2rem;
+}
+.current-city-name{
+    text-align: center;
+    font-size: 0.3rem;
+}
+.data-show{
+    height: 2rem;
+    padding: 0px;
+}
+.data-show p {
+    margin: 0px;
+    white-space: nowrap;
+}
+.data-show p:first-child{
+    color: #FFFFFF;
+    font-size: 0.1rem;
+}
+.data-show p:last-child{
+    color: #299AC9;
+    font-size: 0.4rem;
+}
+.current-city-allSite{
+    /*background: url('../../images/group_northwest.png') no-repeat;
+    background-size: 1.2rem 0.4rem;
+    background-position: 30% 70%;*/
+    text-align: right;
+    height: 46%;
+    padding: 1% 24% 0 0;
+}
+.current-city-dunw{
+    /*background: url('../../images/group_northeast.png') no-repeat;*/
+    text-align: left;
+    padding: 1% 0 0 24%;
+    height: 46%;
+}
+.current-city-rentCar{
+    /*background: url('../../images/group_sourthwest.png') no-repeat;*/
+    text-align: right;
+    height: 46%;
+    padding:0 24% 0 0;
+}
+.current-city-carNum{
+    text-align: left;
+    padding: 0% 0 0 24%;
+    height: 46%;
+}
+
+#J_mo_map {
+    /*padding: 0px;
+    background: url('../../images/cn_map.png') no-repeat;
+    background-position: 0 5rem;
+    background-size: 89% 40%;*/
+}
+.three-d-map{
+    background: url('../../images/cn_map.png') no-repeat;
+}
+.service-hotline-top{
+    height: 50%;
+    padding: 0px;
+}
+.mo-progress-title{
+    padding: 0px;
+    height: 30%;
+}
+.mo-progress-title p {
+    text-align: center;
+    margin: 1px;
+}
+.service-success-line p:last-child {
+    color: #158FC0;
+}
+.service-failed-line p:last-child{
+    color: #4DA93B;
+}
+.service-hotline-progress{
+    padding: 0px;
+    height: 20%;
+}
+.mo-progress{
+    margin: 0px;
+}
+.mo-progress-chart {
+    height: 110%;
+}
+.mo-progress-chart tr td:first-child, .mo-progress-chart tr td:last-child{
+    width: 10%;
+    white-space: nowrap;
+}
+.mo-progress-chart tr td:first-child + td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mo-progress-chart .progress{
+    height: 0.2rem;
+    margin-bottom: 0.05rem;
+    background-color: #0A0B20;
+    border-radius: 0;
+}
+
+.mo-progress-chart .progress-bar{
+    //background: linear-gradient(90deg,#00A1DF 0,#00E63D 100%);
+}
+
+.progress-service-success{
+    background-color: #158FC0;
+}
+.progress-service-failed{
+    background-color: #4DA93B;
+}
+.num-box{
+    //background: url('../../images/line_dark.png') no-repeat;
+    //background-size: 100% 100%;
+	background-color: #063D9B;
+}
+.list-group-nw{
+    float:left;
+    position: relative;
+    margin-bottom: 0;
+    border: 1px solid black;
+}
+
+
+.list-item-se{
+    padding:0;
+    margin:0;
+    border:0;
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.1rem;
+    /* height: 40px; */
+    margin:0 1px 0 1px;
+    /*border-radius: 4px;*/
+    background-color: transparent;
+    /*padding: 2px;*/
+}
+.data-box {
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+    height: 65%;
+}
+.data-box .data-rent-rank p{
+    margin: 0;
+    white-space: nowrap;
+}
+.data-box .data-rent-rank p:first-child{
+    font-size: 14px;
+    color: white;
+    height: auto;
+}
+.data-box .data-rent-rank p:last-child{
+    font-size: 12px;
+    color: #299AC9;
+}
+.top1 {
+    position: absolute;
+    right: 0px;
+    top: 96px;
+    text-align: right;
+}
+.top2 {
+    position: absolute;
+    right: 0px;
+    top: 44px;
+    text-align: right;
+}
+.top3 {
+    position: absolute;
+    left: 0px;
+}
+.top4 {
+    position: absolute;
+    right: 0px;
+    text-align: right;
+}
+.top5 {
+    position: absolute;
+    left: 0px;
+    top: 96px;
+}

@@ -1,0 +1,70 @@
+html, body, .content {
+	height: 100%;
+}
+.content {
+	padding: 10px;
+	background-color: #E9EFF3;
+}
+.content > div {
+	padding: 10px;
+}
+.sm-gp {
+	height: 30%;
+}
+.bg-bp {
+	height: 35%;
+}
+.sm-gp > div, .bg-bp > div {
+	height: 100%;
+	background-color: #FFF;
+}
+.component-box {
+	padding-top: 30px;
+	padding: 42px 10px 10px;
+}
+.component-box > div {
+	height: 100%;
+}
+.content h6 {
+	position: absolute;
+	left: 20px;
+	color: #263238;
+	font-size: 14px;
+}
+.component-box .custom-progress {
+	height: 50%;
+}
+.business-income .custom-progress {
+	height: 33%;
+}
+
+.business {
+
+}
+.resource {
+
+}
+.bed-use {
+	/*height: 100%;*/
+}
+.patient {
+
+}
+.business-income {
+
+}
+.medicine-proportion {
+
+}
+.hospital-income {
+
+}
+.outpatient-db-ctrl {
+	/*height: 100%;*/
+}
+.hospital-db-ctrl {
+	/*height: 100%;*/
+}
+.bad-event {
+
+}

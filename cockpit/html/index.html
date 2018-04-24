@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>瑞安医院驾驶舱</title>
+	<link rel="stylesheet" type="text/css" href="../src/lib/bootstrap_3.3.6.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+</head>
+<body>
+	<div class="content">
+		<div class="col-md-3 sm-gp business">
+			<h6>业务量</h6>
+			<div class="component-box">
+				<div id="J_LeaveHosTimes" class="custom-progress"></div>
+				<div id="J_OutPatientVisits" class="custom-progress"></div>
+			</div>
+		</div>
+		<div class="col-md-3 sm-gp resource">
+			<h6>资源</h6>
+			<div class="component-box">
+				<div id="J_VisitDoc" class="custom-progress"></div>
+				<div id="J_BedNum" class="custom-progress"></div>
+			</div>
+		</div>
+		<div class="col-md-3 sm-gp bed-use">
+			<h6>床位使用率</h6>
+			<div class="component-box">
+				<div id="J_BedUse"></div>
+			</div>
+		</div>
+		<div class="col-md-3 sm-gp patient">
+			<h6>患者</h6>
+			<div class="component-box">
+				<div id="J_OutpatientAvgCost" class="custom-progress"></div>
+				<div id="J_PatientAvgCost" class="custom-progress"></div>
+			</div>
+		</div>
+		<div class="col-md-4 bg-bp business-income">
+			<h6>业务量</h6>
+			<div class="component-box">
+				<div id="J_OutpatientIncome" class="custom-progress"></div>
+				<div id="J_EmergencyIncome" class="custom-progress"></div>
+				<div id="J_InHosIncome" class="custom-progress"></div>
+			</div>
+		</div>
+		<div class="col-md-4 bg-bp medicine-proportion">
+			<h6>药占比同比</h6>
+			<div class="component-box">
+				<div id="J_Medicine"></div>
+			</div>
+		</div>
+		<div class="col-md-4 bg-bp hospital-income">
+			<h6>院区收入</h6>
+			<div class="component-box">
+				<div id="J_HosIncome"></div>
+			</div>
+		</div>
+		<div class="col-md-4 bg-bp outpatient-db-ctrl">
+			<h6>门诊双控</h6>
+			<div class="component-box">
+				<div id="J_Outpatient"></div>	
+			</div>
+		</div>
+		<div class="col-md-4 bg-bp hospital-db-ctrl">
+			<h6>住院双控</h6>
+			<div class="component-box">
+				<div id="J_Hospital"></div>
+			</div>
+		</div>
+		<div class="col-md-4 bg-bp bad-event">
+			<h6>不良事件</h6>
+			<div class="component-box">
+				<div id="J_CriticallyIllNum" class="custom-progress"></div>
+				<div id="J_DeadNum" class="custom-progress"></div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../src/lib/echarts.js"></script>
+	<script type="text/javascript" src="../src/lib/underscore.1.8.3.min.js"></script>
+	<script type="text/javascript" src="../js/mod/Base.js"></script>
+	<script type="text/javascript" src="../js/mod/OneBarChart.js"></script>
+	<script type="text/javascript" src="../js/mod/CircleChart.js"></script>
+	<script type="text/javascript" src="../js/mod/PieChart.js"></script>
+	<script type="text/javascript" src="../js/mod/AreaLineChart.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
